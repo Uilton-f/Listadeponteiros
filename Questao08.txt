@@ -10,7 +10,7 @@ for(i=0;i<3;i++){
   printf("%d ",*(vet+i));
   }
 
-=> Serve para imprimir os valores dos elemnetos do vetor: 4 9 13
+=> Serve para imprimir os valores dos elementos do vetor: 4 9 13
 
   for(i=0;i<3;i++){
   printf("%X ",vet+i);
