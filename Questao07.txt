@@ -1,0 +1,13 @@
+//Declarando:
+
+#include <stdio.h>
+
+int main(void) {
+  int mat[4], *p, x;
+
+//Então:
+
+p = mat + 1; É válido, pois "p" está recebendo o endereço do segundo elemento do vetor
+p = mat++; É inválido, pois esta operação não pode ser realizada em um array, sendo erro de sintaxe 
+p = ++mat; É inválido, pois esta operação não pode ser realizada em um array, sendo erro de sintaxe
+x = (*mat)++; É válido, pois está sendo incrementado em +1 o contéudo do primeiro elemento do vetor
