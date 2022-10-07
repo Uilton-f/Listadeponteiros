@@ -1,0 +1,17 @@
+//Declarando 4 vetores de 4 elementos, um vetor para cada tipo variável, temos:
+
+  char x[4];
+  int x[4];
+  float x[4];
+  double x[4];
+
+//Supondo que x esteja armazenado no endereço de memória 4092 (logo, x[0] = 4092), e que uma variável do tipo char ocupa 1 byte, do tipo
+int ocupa 2 bytes, do tipo float ocupa 4 bytes e do tipo double ocupa 8 bytes, os valores de x + 1, x + 2 e x+3 seriam:
+
+char: x + 1 = 4093, x + 2 = 4094, x + 3 = 4095
+
+int: x + 1 = 4094, x + 2 = 4096, x + 3 = 4098
+
+float: x + 1 = 4096, x + 2 = 4100, x + 3 = 4104
+
+double: x + 1 = 4100, x + 2 = 4108, x + 3 = 4116
