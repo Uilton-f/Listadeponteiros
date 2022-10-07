@@ -13,4 +13,4 @@ i = *&*&j é legal!
 
 q = *p é ilegal!
 
-i = (*p)++ + *q é ilegal!
+i = (*p)++ + *q é legal!
