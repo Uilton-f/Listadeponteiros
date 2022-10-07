@@ -1,0 +1,16 @@
+//Resultados das expressões:
+p = i é ilegal!
+
+q = &j é legal!
+
+p = &*&i é legal!
+
+i = (*&)j é  ilegal!
+
+i = *&j é legal!
+
+i = *&*&j é legal!
+
+q = *p é ilegal!
+
+i = (*p)++ + *q é ilegal!
