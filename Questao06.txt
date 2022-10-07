@@ -1,0 +1,3 @@
+//Sendo pulo[] um vetor int:
+
+A expressão que referencia o terceiro elemento é "*(pulo + 2)"
