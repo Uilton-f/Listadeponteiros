@@ -1,0 +1,19 @@
+//Declarando:
+
+int main(){
+  int vet[] = {4,9,13};
+  int i;
+
+//Então:
+
+for(i=0;i<3;i++){
+  printf("%d ",*(vet+i));
+  }
+
+=> Serve para imprimir os valores dos elemnetos do vetor: 4 9 13
+
+  for(i=0;i<3;i++){
+  printf("%X ",vet+i);
+  }
+
+=> Serve para imprimir os endereços de memória dos elementos do vetor
