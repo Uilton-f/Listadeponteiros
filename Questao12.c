@@ -1,3 +1,5 @@
+//Ponteiro para função
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -12,6 +14,7 @@ int main(){
   printf("Digite dois números: \n");
   scanf("%d  %d", &a, &b);
 
+  //Ponteiro recebe o endereço da função
   p = soma;
   c = p(a,b);
 
