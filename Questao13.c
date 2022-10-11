@@ -40,7 +40,7 @@ scanf("%d", &n);
 //Função para processamento de números diferentes cada vez que o programa for iniciado, de acordo com o tempo
   srand(time(NULL));
 
-//Geração aleatória dos números
+//Geração aleatória dos números, do tipo float
   for(i = 0; i < n; i++){
     y = rand()%100;
     z = rand()%100;
